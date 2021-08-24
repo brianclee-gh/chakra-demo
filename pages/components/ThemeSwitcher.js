@@ -7,6 +7,8 @@ export default function ThemeSwitcher() {
     <IconButton
       aria-label="Toggle Theme"
       onClick={toggleColorMode}
+      size="lg"
+      m={3}
       icon={colorMode === 'dark' ? <MoonIcon /> : <SunIcon />}>
     </IconButton>
 )
